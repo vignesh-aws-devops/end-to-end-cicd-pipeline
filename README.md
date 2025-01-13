@@ -11,6 +11,8 @@ I am excited to share that I have built a fully automated, scalable End-to-End C
 - ✅ **Amazon SNS**: Sends real-time notifications about deployment events, improving communication and collaboration.
 - ✅ **IAM Roles**: Ensures secure communication between services by enforcing fine-grained access controls.
 
+![Architecture Diagram](./CI_CD_Pipeline_AWS.png)
+
 ## Key Features and Functionality
 - 🟠 **Automated Deployments**: Triggered automatically when new code is uploaded to S3, reducing manual effort.
 - 🟠 **Continuous Integration and Deployment**: CodeBuild and CodeDeploy ensure error-free builds and zero-downtime deployments.
