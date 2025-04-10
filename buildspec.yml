@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.x  # Specify the Python version you want to use
+    commands:
+      - echo "Installing dependencies..."
+      - pip install -r my_application/requirements.txt
+  pre_build:
+    commands:
+      - echo "Running tests..."
+      - pytest tests/
+  build:
+    commands:
+      - echo "Build completed successfully."
+  post_build:
+    commands:
+      - echo "Preparing for deployment..."
+      - mkdir -p output
+      - cp -r my_application/* output/
+      - cp -r my_application/templates output/templates/
+      - cp my_application/requirements.txt output/
+
+artifacts:
+  files:
+    - output/**/*
