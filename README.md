@@ -36,6 +36,3 @@ I am excited to share that I have built a fully automated, scalable End-to-End C
 If you’re passionate about DevOps or curious about AWS automation, let’s connect! I’d love to exchange ideas, discuss strategies, or collaborate on exciting projects. Drop your thoughts in the comments!
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/vignesh-aws-devops/)
-
-## AWS Community | Amazon Web Services (AWS)  
-#DevOps #Automation #CloudComputing #AWSDevOps #CodePipeline #CodeDeploy #CloudInnovation #learningandgrowth
